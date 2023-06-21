@@ -20,19 +20,19 @@ const ImageCardList = () => {
   const imageCards = [
     {
       id: 1,
-      imageSrc: '/public/Images/Aurobindo_Residency 1.png',
+      imageSrc: 'Images/Aurobindo_Residency 1.png',
       title: 'Card 1',
       location: 'Lorem',
     },
     {
       id: 2,
-      imageSrc: '/public/Images/Aurobindo_Residency 1.png',
+      imageSrc: 'Images/Aurobindo_Residency 1.png',
       title: 'Card 2',
       location: 'bbsr',
     },
     {
       id: 3,
-      imageSrc: '/public/Images/Aurobindo_Residency 1.png',
+      imageSrc: 'Images/Aurobindo_Residency 1.png',
       title: 'Card 3',
       location: 'cuttack',
     },

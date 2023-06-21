@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section className="flex flex-col md:flex-row justify-between items-center bg-gray-200 px-4 md:px-20 py-6">
       <div className="md:w-1/2">
-        <img src="/public/aboutImage.png" alt="" className="w-full max-w-xl" />
+        <img src="aboutImage.png" alt="" className="w-full max-w-xl" />
       </div>
       <div className="md:w-1/2 md:pl-10">
         <h3 className="text-2xl font-bold mb-4">About Us</h3>

@@ -4,10 +4,12 @@ import { GrMail } from 'react-icons/gr';
 import ContactUs from './ContactUs';
 import ImageCardList from './ImageCard';
 import AboutPage from './AboutUs';
+import Header from './Header';
 
 const Footer = () => {
   return (
     <>
+    <Header />
     <AboutPage />
     <ImageCardList />
     <footer className="bg-[#FFD8E3] flex flex-col md:flex-row justify-evenly px-8 md:px-20 py-8 text-[#37211E]">
