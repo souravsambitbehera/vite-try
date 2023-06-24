@@ -9,9 +9,11 @@ const Header = () => {
         className="w-full h-screen object-cover "
       />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-        <h1 className="text-white text-4xl font-bold mb-4">Welcome to Our Website</h1>
-        <div className="flex space-x-4">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <h1 className="text-red-600 text-4xl font-bold mb-8">Welcome to Our Website</h1>
+
+        <h1 className="text-red-600 text-4xl font-bold mb-52">Welcome to Our Website</h1>
+        <div className="flex space-x-56">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl">
             About Us
           </button>
           <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">

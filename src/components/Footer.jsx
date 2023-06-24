@@ -2,16 +2,19 @@ import React from 'react';
 import { IoLogoWhatsapp, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io';
 import { GrMail } from 'react-icons/gr';
 import ContactUs from './ContactUs';
-import ImageCardList from './ImageCard';
+// import ImageCardList from './ImageCard';
 import AboutPage from './AboutUs';
 import Header from './Header';
+import CardFunctionality from './CardFunctionality';
+
 
 const Footer = () => {
   return (
     <>
     <Header />
     <AboutPage />
-    <ImageCardList />
+    <CardFunctionality />
+    {/* <ImageCardList /> */}
     <footer className="bg-[#FFD8E3] flex flex-col md:flex-row justify-evenly px-8 md:px-20 py-8 text-[#37211E]">
       <div className="md:w-1/4">
         <img src="LOGO (1).png" width="258px" height="61px" className="" alt="" />
